@@ -82,7 +82,7 @@ nav a{
 }
 
 nav a:hover{
-  color: #62FB69;
+  color: #FFF900;
 }
 
 header{
@@ -99,6 +99,7 @@ header h1{
   font-size: 3em;
   font-family: Helvetica;
   font-weight: 600;
+  color: #0408AA;
 }
 
 article{
@@ -111,7 +112,6 @@ article{
 article h2{
   position: relative;
   background: #96C4FB;
-  color: #3F39FB;
   text-align: center;
   font-size: 3.5em;
   padding: 50px 0;
@@ -160,7 +160,8 @@ footer{
   width: 100%;
   background: #E1E1DF;
   z-index: 3;
-  padding: 12px 0
+  padding: 12px 0;
+  border-top: 1px solid black;
 }
 
 footer ul{
@@ -176,6 +177,12 @@ footer a{
   font-size: 1.2em;
   color: #110EE1;
   text-decoration: none;
+  border-left: 2px dotted gray;
+  padding-left: 20px;
+}
+
+.first-nav{
+  border-left: none;
 }
 
 footer a:hover{
